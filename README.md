@@ -14,8 +14,6 @@
 | الملف | الوصف | التحميل |
 |---|---|---|
 | `YrPlayerPro_Setup_v1.0.7.exe` | مثبّت Windows x64 كامل، لا يحتاج تثبيت .NET | [تحميل المثبّت](https://github.com/yazid900/y-player_pro/releases/download/v1.0.7/YrPlayerPro_Setup_v1.0.7.exe) |
-| `IbPlayerClone_Fixed.zip` | المصدر الكامل للمشروع | [تحميل المصدر](https://github.com/yazid900/y-player_pro/releases/download/v1.0.7/IbPlayerClone_Fixed.zip) |
-| `Web.zip` | نسخة الموقع الخلفي PHP/MySQL | [تحميل الموقع](https://github.com/yazid900/y-player_pro/releases/download/v1.0.7/Web.zip) |
 | `SHA256SUMS.txt` | بصمات التحقق من الملفات | [عرض البصمات](https://github.com/yazid900/y-player_pro/releases/download/v1.0.7/SHA256SUMS.txt) |
 
 > يُنصح دائماً بتنزيل الإصدار من صفحة [Releases](https://github.com/yazid900/y-player_pro/releases) والتحقق من البصمة قبل التثبيت.
@@ -47,30 +45,9 @@
 ## الموقع المرافق
 
 - الرابط: [https://yr-player.page.gd/](https://yr-player.page.gd/)
-- الملفات: `Web.zip`
-- قاعدة البيانات: MySQL / PHP
 - المزامنة تعمل عبر HTTPS فقط، دون port forwarding.
 
-راجع `Web/README_AR.md` داخل ملف المصدر أو `README_AR.md` داخل `Web.zip` لخطوات النشر والتجربة المحلية بـ Laragon.
-
----
-
-## البناء من المصدر
-
-```powershell
-git clone https://github.com/yazid900/y-player_pro.git
-cd y-player_pro
-# استخرج IbPlayerClone_Fixed.zip إلى مجلد IbPlayerClone بجانب IbPlayerClone.slnx
-dotnet build IbPlayerClone\IbPlayerClone.csproj -c Release
-```
-
-لإعادة توليد المثبّت بعد تثبيت Inno Setup 6:
-
-```powershell
-.\IbPlayerClone\build_installer.ps1
-```
-
-النتيجة المتوقعة دائماً: `0 Warning(s), 0 Error(s)`.
+لا تتوفّر ملفات مصدر للتنزيل؛ الإصدار مخصّص لتثبيت البرنامج فقط.
 
 ---
 

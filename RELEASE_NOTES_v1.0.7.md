@@ -24,9 +24,9 @@
 ## الملفات المرفقة
 
 - `YrPlayerPro_Setup_v1.0.7.exe` — مثبّت Windows x64 self-contained.
-- `IbPlayerClone_Fixed.zip` — المصدر الكامل.
-- `Web.zip` — نسخة الموقع PHP/MySQL.
-- `SHA256SUMS.txt` — بصمات التحقق.
+- `SHA256SUMS.txt` — بصمة التحقق للمثبّت.
+
+لا يتم نشر أي ملفات مصدر في هذا الإصدار.
 
 ## التحقق من البناء
 
